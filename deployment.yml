@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-nodeapp
+  labels:
+    app: app-naveen
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-naveen
+  template:
+    metadata:
+      labels:
+        app: app-naveen 
+    spec:
+      containers:
+      - name: nodeserver
+        image: ndjanalytics/app-naveen:latest
+        ports:
+        - containerPort: 3000

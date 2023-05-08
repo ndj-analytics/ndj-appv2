@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI powered Microservices</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="heading">
+    <div class="header-content">
+      <div class="row">
+        <div class="col left">
+          <img class="openai" src="./img/open_ai.png" alt="">
+        </div>
+        <div class="col right">
+          <h1 id="title">Chatify</h1>
+          <h4 id="subtitle">OpenAI powered Microservices application</h4>
+          <p>The following application has been built using the OpenAI createChatCompletion endpoint to cater to user's test requests</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container chat">
+    <div class="chat-content"></div>
+    <form>
+      <input type="text" class="input" id="msg-input" value="Type your message..."/>
+      <button id="msg-send">Send</button>
+    </form>
+    <div id="msg-response">Response message is shown here</div>
+  </div>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

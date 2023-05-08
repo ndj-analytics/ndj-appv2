@@ -1,0 +1,88 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#title {
+  margin: 0;
+}
+
+#subtitle {
+  margin-top: 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+.heading {
+  height: 20vh;
+  background-color: #EAC435;
+}
+
+.header-content {
+  padding-top: 2em;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  float: left;
+}
+
+.left {
+  width: 25%;
+  display: flex;
+}
+
+.right {
+  width: 75%;
+}
+
+.openai {
+  text-align: center;
+  align-self: center;
+  height: 50px;
+}
+
+.chat {
+  background-color: #0B2027;
+  height: 80vh;
+}
+
+.chat-content {
+  padding-top: 2em;
+}
+
+#msg-input, #msg-response, #msg-send {
+  font-weight: 300;
+  font-size: small;
+  background-color: whitesmoke;
+}
+
+#msg-input {
+  width: 75vw;
+  height: 30px;
+}
+
+#msg-send {
+  width: 5vw;
+  height: 33px;
+  background-color: #EAC435;
+  color: #0B2027;
+}
+
+#msg-response {
+  border: 2px solid burlywood;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
